@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>WVSSDefaultAddressURL</key>
-	<string>http://www.google.com/</string>
+	<string>https://gare-staging.webflow.io/tests/screensaver</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
