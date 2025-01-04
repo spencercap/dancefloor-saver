@@ -11,7 +11,7 @@ if [ -z "${BASH_VERSION:-}" ]; then
 fi
 
 if [[ "$(uname)" != "Darwin" ]]; then
-  abort "WebViewScreenSaver is only supported on macOS."
+  abort "DancefloorSaver is only supported on macOS."
 fi
 
 if ! command -v git >/dev/null; then
@@ -26,8 +26,8 @@ BUILD_DIR="build"
 
 printf 'Building %s...'
 mkdir "$BUILD_DIR"
-xcodebuild -project WebViewScreenSaver.xcodeproj \
- -scheme WebViewScreenSaver \
+xcodebuild -project DancefloorSaver.xcodeproj \
+ -scheme DancefloorSaver \
  -configuration Release clean archive \
  -archivePath "$BUILD_DIR/build.xcarchive" \
  CODE_SIGN_IDENTITY="-" CODE_SIGNING_REQUIRED=YES > "$BUILD_DIR/build.log"

@@ -28,3 +28,5 @@ DerivedData/
 *.dSYM.zip
 *.dSYM# Xcode
 
+.DS_Store
+

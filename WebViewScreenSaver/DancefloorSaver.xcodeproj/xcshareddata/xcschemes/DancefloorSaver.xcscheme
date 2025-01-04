@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1200"
+   LastUpgradeVersion = "1520"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D255AC50486D3F9007BF209"
                BuildableName = "WebViewScreenSaver.saver"
-               BlueprintName = "WebViewScreenSaver"
-               ReferencedContainer = "container:WebViewScreenSaver.xcodeproj">
+               BlueprintName = "DancefloorSaver"
+               ReferencedContainer = "container:DancefloorSaver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,8 +45,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D255AC50486D3F9007BF209"
             BuildableName = "WebViewScreenSaver.saver"
-            BlueprintName = "WebViewScreenSaver"
-            ReferencedContainer = "container:WebViewScreenSaver.xcodeproj">
+            BlueprintName = "DancefloorSaver"
+            ReferencedContainer = "container:DancefloorSaver.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -61,8 +61,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D255AC50486D3F9007BF209"
             BuildableName = "WebViewScreenSaver.saver"
-            BlueprintName = "WebViewScreenSaver"
-            ReferencedContainer = "container:WebViewScreenSaver.xcodeproj">
+            BlueprintName = "DancefloorSaver"
+            ReferencedContainer = "container:DancefloorSaver.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

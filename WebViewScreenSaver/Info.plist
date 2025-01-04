@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>WVSSDefaultAddressURL</key>
-	<string>https://gare-staging.webflow.io/tests/screensaver</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -26,5 +24,7 @@
 	<string>2.4</string>
 	<key>NSPrincipalClass</key>
 	<string>WebViewScreenSaverView</string>
+	<key>WVSSDefaultAddressURL</key>
+	<string>https://gare-staging.webflow.io/tests/screensaver</string>
 </dict>
 </plist>
