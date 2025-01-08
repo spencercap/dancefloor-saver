@@ -53,6 +53,16 @@ E.g. `file:///Users/myUser/mySreensaver/index.html`
 
 **Note**: If you are running **Catalina** or newer the provided path cannot reside in your personal folders which require extra permissions (this includes things like *Downloads*, *Documents* or *Desktop*) but can be anywhere else in your user's folder.
 
+FYI: 
+local file access (shared js etc) must be within index.html's dir
+
+#### sc ex: 
+works:
+`file:///Users/spencer/Library/Screen Savers/tmp-spiraling-up/index.html`
+
+also works:
+`file:///Users/spencer/Library/Screen Savers/tmp-spiraling-up/index.html`
+
 ### Configuration for IT
 If you are interested in scripting configuration changes, WebViewScreenSaver, like most other screensavers, makes use of the macOS `defaults` system.
 

@@ -115,10 +115,14 @@ static NSString *const kScreenSaverName = @"WebViewScreenSaver";
 
 + (WKWebView *)makeWebView:(NSRect)frame {
   WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
+
+  // Allow universal access from file URLs (private API)
+  [configuration setValue:@YES forKey:@"_allowUniversalAccessFromFileURLs"];
+
   WKPreferences *preferences = [[WKPreferences alloc] init];
   preferences.javaScriptCanOpenWindowsAutomatically = NO;
   configuration.preferences = preferences;
-  
+    
   WKWebView *webView = [[WKWebView alloc] initWithFrame:frame configuration:configuration];
   webView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
   

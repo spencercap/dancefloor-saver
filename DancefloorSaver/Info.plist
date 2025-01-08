@@ -26,5 +26,12 @@
 	<string>WebViewScreenSaverView</string>
 	<key>WVSSDefaultAddressURL</key>
 	<string>https://gare-staging.webflow.io/tests/screensaver</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
